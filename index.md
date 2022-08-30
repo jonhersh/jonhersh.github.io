@@ -8,4 +8,4 @@ I received my PhD in economics at Boston University. I’ve worked with firms an
 
 At Chapman I teach courses in machine learning, statistics, and business analytics. I am interested in pedagogical methods for delivering the best possible training in these methods. I’m always happy to talk with Chapman University students and faculty, particularly those interested in development and/or data science.
 
-!(images/teaching.jpg)
+![](images/Headshot_teaching.jpg)
