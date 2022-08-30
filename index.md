@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## About Me
 
-You can use the [editor on GitHub](https://github.com/jonhersh/jonhersh.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hi. I’m an assistant professor of economics and management science at Chapman University Argyros School of Business in Orange County, CA. Previously I lectured at MIT and Wellesley College.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My research interests include the economics of information systems, online media piracy and digitization strategy, decision support systems for data-driven decision making, IT strategy, and the impact of IT on society and firms. I use both predictive methods (applied machine learning and artificial intelligence, in particularly computer vision models) and causal inference methods to answer these questions. My research has appeared in leading journals (MIS Quarterly, Proceedings of the National Academy of Sciences) and computer science conferences (Conference on Neural Information Processing Systems).
 
-### Markdown
+I received my PhD in economics at Boston University. I’ve worked with firms and international organizations such as World Bank, the Inter-American Development Bank, the International Monetary Fund on how to use machine learning to improve management processes. I still on occasion lecture on these topics for specific training. If that's of interest to you, please [reach out](mailto:hersh@chapman.edu). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+At Chapman I teach courses in machine learning, statistics, and business analytics. I am interested in pedagogical methods for delivering the best possible training in these methods. I’m always happy to talk with Chapman University students and faculty, particularly those interested in development and/or data science.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jonhersh/jonhersh.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+!(images/teaching.jpg)
