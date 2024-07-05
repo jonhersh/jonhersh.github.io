@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<div class="main-wrapper">
+
+    <article class="blog-post px-3 py-5 p-md-5">
+        <div class="container">
+            <header class="blog-post-header">
+                <h2 class="title mb-2" style="color: black; font-weight:600; ">{{ page.title }}</h2>
+               
+            </header>
+
+            <div class="blog-post-body">
+               
+
+                {{ content | markdownify}}
+            </div>
+
+
+        </div>
+    </article>
+
+
+    {% include site-footer.html %}
+
+</div>
+
+

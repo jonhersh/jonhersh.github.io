@@ -1,0 +1,102 @@
+<header class="header text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navigation" class="collapse navbar-collapse flex-column">
+            <!-- Profile Section Start -->
+            <div class="profile-section pt-3 pt-lg-0">
+                <a href="{{ site.navigation_header[0].url }}">
+                    <img class="profile-image mb-3 rounded-circle mx-auto" src="{{ site.logo | relaive_url }}" alt="image">
+                </a>
+                <h3 class="blog-name pt-2 mb-3">
+                    <a href="{{ site.navigation_header[0].url }}">{{ site.user.name }}</a>
+                </h3>
+
+                <!-- Bio Section Start-->
+                <div class="bio mb-3">
+                  
+                    <p>
+                        {{ site.user.bio }}
+                    </p>
+                    
+                </div>
+
+<ul class="social-icons">
+  <li class="social-icon">
+    <a href="https://scholar.google.com/citations?user=0aH3TXMAAAAJ&hl=en&oi=ao" target="_blank">
+              <img src="/assets/scholar.png" alt="Chapman University" class="icon-image">
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2868282" target="_blank">
+      <img src="/assets/ssrn.png" alt="SSRN" class="icon-image">
+    </a>
+  </li>
+
+  <li class="social-icon">
+    <a href="https://www.chapman.edu/our-faculty/jonathan-hersh" target="_blank">
+      <img src="/assets/chapman.png" alt="Chapman University" class="icon-image">
+    </a>
+  </li>
+</ul>
+<style>
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center align the icons */
+}
+
+.social-icon {
+  margin: 0 10px; /* Adjust the spacing between icons */
+}
+
+.icon-image,
+.icon-font {
+  width: 40px; /* Set the desired width */
+  height: 40px; /* Set the desired height */
+  display: inline-block;
+  border: 2px solid white; /* Add a white border */
+  border-radius: 50%; /* Make the border circular */
+  box-sizing: border-box; /* Ensure the border is included in the element's total width and height */
+  background-color: white; /* Add a background color to match the border */
+  text-align: center; /* Center align content inside the border */
+}
+
+.icon-font {
+  font-size: 24px; /* Adjust the font size to fit within the 40px container */
+  line-height: 40px; /* Center the icon vertically */
+  color: black; /* Adjust icon color */
+}
+
+
+</style>
+<script>
+    $(document).ready(function () {
+      $('.navbar-toggler').click(function () {
+        $('#navigation').collapse('toggle');
+      });
+    });
+  </script>
+
+                
+                <hr style="background: white;">
+            </div>
+            <!-- Profile Section End-->
+
+
+            {% include nav-header.html %}
+
+            <div class="my-2 my-md-3">
+                <a class="btn btn-primary" href="/assets/resume/resume.pdf" target="_blank"
+                    download="Jonathan-Hersh_CV">Resume (pdf)</a>
+            </div>
+            
+        </div>
+    </nav>
+</header>
